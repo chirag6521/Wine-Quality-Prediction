@@ -1,6 +1,6 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_transformation import DataTransformation
-from mlProject import logger
+from src.mlproject.config.configuration import ConfigurationManager
+from src.mlproject.components.data_transformation import DataTransformation
+from src.mlproject import logger
 from pathlib import Path
 
 

@@ -1,8 +1,8 @@
 import os
-from mlProject import logger
+from src.mlproject import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
-from mlProject.entity.config_entity import DataTransformationConfig
+from src.mlproject.entity.config_entity import DataTransformationConfig
 
 
 
