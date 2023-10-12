@@ -1,6 +1,6 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.model_evaluation import ModelEvaluation
-from mlProject import logger
+from src.mlproject.config.configuration import ConfigurationManager
+from src.mlproject.components.model_evaluation import ModelEvaluation
+from src.mlproject import logger
 
 STAGE_NAME = "Model evaluation stage"
 
@@ -25,4 +25,6 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
+
+
 
